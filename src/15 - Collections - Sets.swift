@@ -1,4 +1,3 @@
-
 // Sets
 var letters = Set<Character>()
 print(letters.count)
@@ -10,9 +9,9 @@ letters.insert("w")
 print(letters)
 print(letters.count)
 
-    // Remover 
+// Remover 
 if let v = letters.remove("b"){
-    print("Element removed")
+    print("Element removed \(v)")
 }else{
     print("Cant remove the element")
 }
@@ -54,9 +53,9 @@ print(oddDigits.union(evenDigits).sorted())
 //Intersección
 print(oddDigits.intersection(primeDigits).sorted())
 
-    // A - B
+// A - B
 print(oddDigits.subtracting(primeDigits).sorted())
 
-    // Diferencia simétrica: A-B union B-A
+// Diferencia simétrica: A-B union B-A
 print(oddDigits.symmetricDifference(primeDigits).sorted())
 
