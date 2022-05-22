@@ -1,33 +1,3 @@
-// Functions
-func greeting(person: String) -> String{
-    let greet = "Hello \(person)"
-    return greet
-}
-
-print(greeting(person: "Jhonyfer"))
-print(greeting(person: "Michael"))
-print(greeting(person: "Elizabeth"))
- 
-
-// Parameters
-
-// No parameters function
-func sayHelloWorld() -> String{
-    return "Hello world"
-}
-print(sayHelloWorld())
-
-// Multiple parameters
-func greeting(person: String, isMale: Bool) -> String{
-    if isMale{
-        return "Welcome sir \(person)"
-    }else{
-        return "Welcome miss \(person)"
-    }
-}
-print(greeting(person: "Lola", isMale: false))
-print(greeting(person: "Lalo", isMale: true))
-
 // No return values
 func greet2(person: String){
     print("Hello \(person)")
